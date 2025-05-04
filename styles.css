@@ -95,3 +95,41 @@ header{
     cursor: pointer;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0 5em 0;
+    gap: 30px;
+}
+
+.content-title{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
+.content-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image-container{
+    width: 200px;
+}
+
+.content-image{
+    border: 5px solid #3b82f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.image-caption{
+    color: #6d747d;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
