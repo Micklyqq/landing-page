@@ -133,3 +133,28 @@ header{
     text-align: center;
     margin-top: 10px;
 }
+
+.quote{
+    background-color: #E5E7EB; 
+}
+
+.quote-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40%;
+    margin: 0 auto;
+    padding: 5em 0;
+    color:#1F2937;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author{
+    font-weight: 900;
+    font-size: 24px;
+}
